@@ -1,0 +1,21 @@
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<header class=" w3-bar w3-container w3-teal w3-xlarge w3-padding ">
+    <a href="/home" class="w3-bar-item w3-hover-indigo w3-button "><i class="fa fa-home"></i> Home</a>
+
+    <a href="/about" class="w3-bar-item w3-hover-indigo w3-button "><i class="fa fa-bars"></i> About</a>
+
+    <a href="/contacts" class="w3-bar-item w3-hover-indigo w3-button "><i class="fa fa-search"></i> Contacts</a>
+
+    <a href="/catalogue" class="w3-bar-item w3-hover-indigo w3-button "><i class="fa fa-book"></i> Catalogue</a>
+
+    {if $isUserLoggedIn }
+    <a href="/logout" class="w3-bar-item w3-hover-indigo w3-button w3-right"><i class="material-icons w3-xxlarge">exit_to_app</i></a>
+    {else}
+    <a href="/login" class="w3-bar-item w3-hover-indigo w3-button w3-right"><i class="material-icons w3-xxlarge">person</i></a>
+    {/if}
+
+</header>
+
+
